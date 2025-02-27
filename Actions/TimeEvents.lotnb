@@ -1,0 +1,1 @@
+[{"kind":2,"language":"lot","value":"DEFINE ACTION EdgeTimestamp\r\nON EVERY 10 SECONDS DO\r\n    PUBLISH TOPIC \"Process/MOF_2100/Steelroll_2110/UnMov1_2200/CommStatus/Edge/Feedback/TIMESTAMP\" WITH TIMESTAMP \"UTC\""}]
