@@ -33,4 +33,4 @@ ON EVERY 5 SECONDS DO
   Any extra details, edge cases, or performance considerations.
 - **Related Methods:**  
   Links or references to similar or complementary methods.
-  [Back to Functions](../Functions.md)
+  [Back to Functions](../Functional.md)

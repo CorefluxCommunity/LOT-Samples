@@ -55,5 +55,5 @@ DO
   - [GET TOPIC](../GET%20TOPIC/GET%20TOPIC.md)  
   - [PUBLISH TOPIC](../PUBLISH%20TOPIC/PUBLISH%20TOPIC.md)  
 
-[Back to Functions](../Functions.md)
+[Back to Functions](../Functional.md)
 

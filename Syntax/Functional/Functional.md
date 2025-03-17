@@ -4,27 +4,27 @@
 
 | Function Name    | Description                                | Documentation      |
 |------------------|--------------------------------------------|--------------------|
-| `PUBLISH TOPIC`  | Broadcasts data to subscribed clients.     | [View Docs](../Functions/PUBLISH%20TOPIC/PUBLISH%20TOPIC.md)  |
+| `PUBLISH TOPIC`  | Broadcasts data to subscribed clients.     | [View Docs](../Functional/PUBLISH%20TOPIC/PUBLISH%20TOPIC.md)  |
 
 ## 📂 **Data Storage & Management**
 
 | Function Name   | Description                                  | Documentation      |
 |-----------------|----------------------------------------------|--------------------|
-| `KEEP TOPIC`    | Stores data internally within the broker.    | [View Docs](../Functions/KEEP%20TOPIC/KEEP%20TOPIC.md) |
+| `KEEP TOPIC`    | Stores data internally within the broker.    | [View Docs](../Functional/KEEP%20TOPIC/KEEP%20TOPIC.md) |
 | `SET`           | Defines or modifies variables dynamically.   | [View Docs](link)  |
 
 ## 🔍 **Data Retrieval**
 
 | Function Name   | Description                                 | Documentation      |
 |-----------------|---------------------------------------------|--------------------|
-| `GET TOPIC`     | Retrieves data from a specified topic.      | [View Docs](../Functions/GET%20TOPIC/GET%20TOPIC.md)  |
+| `GET TOPIC`     | Retrieves data from a specified topic.      | [View Docs](../Functional/GET%20TOPIC/GET%20TOPIC.md)  |
 
 ## ⚙️ **Conditional Logic & Flow Control**
 
 | Function Name   | Description                                  | Documentation      |
 |-----------------|----------------------------------------------|--------------------|
 | `IF`            | Executes actions based on specific conditions.| [View Docs](link)  |
-| `EMPTY`         | Checks whether a topic contains data.        | [View Docs](link)  |
+
 
 ---
 

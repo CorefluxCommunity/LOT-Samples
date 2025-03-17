@@ -7,6 +7,13 @@ The **LOT Samples** repository is a collection of demonstrations, tutorials, and
 
 For more details on LOT, visit the [LOT Language of Things page](https://www.coreflux.org/lot-language-of-things).
 
+
+## What is Languague of Things
+- [Actions](../Actions/README.md)
+- [Models](../Models/README.md)
+- [Routes](../Routes/README.md)
+- [Syntax](../Syntax/README.md)
+
 ## Installation & Dependencies
 Setting up the LOT Samples project is straightforward. The only dependencies needed are:
 - **Visual Studio Code** with the **LOT Notebook extension** (LOT Language Support by Coreflux) for syntax highlighting and running LOT code.
