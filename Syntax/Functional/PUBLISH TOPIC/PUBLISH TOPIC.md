@@ -1,4 +1,4 @@
-## KEYWORD: `PUBLISH TOPIC`
+## Functional Keyword: `PUBLISH TOPIC`
 
 ### 1. Overview
 - **Description:**  
@@ -7,8 +7,7 @@
 ### 2. Signature
 - **Syntax:**  
   ```lot
-  PUBLISH TOPIC "topic_name" WITH payload
-  PUBLISH TOPIC {variable_name} WITH payload
+  PUBLISH TOPIC <"topic_name"|{variable_name}> WITH <FILTER|SPLIT|REPLACE|TRIM> <GET TOPIC | PAYLOAD | {variable_name}|(Expression)> USING <CSV|REGEX>
   ```
 
 ### 3. Compatible Keywords
@@ -52,6 +51,8 @@ DO
 
 ### 6. Notes & Additional Information
 - **Related Methods:**  
-  [GET TOPIC](../GET%20TOPIC/GET%20TOPIC.md)  
-  [KEEP TOPIC](../KEEP%20TOPIC/KEEP%20TOPIC.md)  
-  [Back to Functions](../Functions.md)
+    
+    - [GET TOPIC](../GET%20TOPIC/GET%20TOPIC.md)  
+    - [KEEP TOPIC](../KEEP%20TOPIC/KEEP%20TOPIC.md)  
+
+[Back to Functions](../Functions.md)

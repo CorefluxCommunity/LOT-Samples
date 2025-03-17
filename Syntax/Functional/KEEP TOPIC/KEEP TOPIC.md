@@ -1,4 +1,4 @@
-## KEYWORD: `KEEP TOPIC`
+## Functional Keyword: `KEEP TOPIC`
 
 ### 1. Overview
 - **Description:**  
@@ -52,7 +52,8 @@ DO
 
 ### 6. Notes & Additional Information
 - **Related Methods:**  
-  [GET TOPIC](../GET%20TOPIC/GET%20TOPIC.md)  
-  [PUBLISH TOPIC](../PUBLISH%20TOPIC/PUBLISH%20TOPIC.md)  
-  [Back to Functions](../Functions.md)
+  - [GET TOPIC](../GET%20TOPIC/GET%20TOPIC.md)  
+  - [PUBLISH TOPIC](../PUBLISH%20TOPIC/PUBLISH%20TOPIC.md)  
+
+[Back to Functions](../Functions.md)
 

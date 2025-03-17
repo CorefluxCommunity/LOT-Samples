@@ -1,4 +1,4 @@
-# KEYWORD: `GET TOPIC`
+# Functional Keyword: `GET TOPIC`
 
 ## 1. Overview
 - **Description:**  
@@ -7,7 +7,7 @@
 ## 2. Signature
 - **Syntax:**  
   ```lot
-  GET TOPIC "topic_name"
+  GET TOPIC <"topic_name" | {variable_name}> AS {INT|DOUBLE|STRING|TIMESTAMP|BOOL}
   ```
 
 ## 3. Compatible Keywords
@@ -26,7 +26,7 @@ List and description of each KEYWORD that can be used in conjunction:
 Retrieving data from topic "Teste" and comparing it to the value 42. If the condition is true, another topic, "Meaning/of/life", is published with the payload "found".
 
 ```lot
-DEFINE ACTION teste
+DEFINE ACTION TestGetTopic
 ON EVERY 5 SECONDS DO
     IF (GET TOPIC "Teste" EQUALS 42) THEN
         PUBLISH TOPIC "Meaning/of/life" WITH "found"
@@ -64,9 +64,8 @@ ON EVERY 10 SECONDS DO
 ## 6. Notes & Additional Information
 - **Related Methods:**
 
-  [PUBLISH TOPIC](../PUBLISH%20TOPIC/PUBLISH%20TOPIC.md)
+  - [PUBLISH TOPIC](../PUBLISH%20TOPIC/PUBLISH%20TOPIC.md)
+  - [KEEP TOPIC](../KEEP%20TOPIC/KEEP%20TOPIC.md)
 
-  [KEEP TOPIC](../KEEP%20TOPIC/KEEP%20TOPIC.md)
-
-  [Back to Functions](../Functions.md)
+[Back to Functions](../Functions.md)
 

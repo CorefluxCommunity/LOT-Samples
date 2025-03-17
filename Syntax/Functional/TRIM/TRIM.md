@@ -1,4 +1,4 @@
-# KEYWORD: `TRIM`
+# Functional Keyword: `TRIM`
 
 ## 1. Overview
 - **Description:**  
