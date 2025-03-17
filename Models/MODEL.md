@@ -98,5 +98,11 @@ The model will create the following topics:
 - **Related Keywords:**  
   See also the documentation for [DEFINE RULE](./DEFINE_RULE.md) and [ADD](./ADD.md) for additional context on how models integrate with other LOT components.
 
-[Back to Root README](../README.md)
+- **Related Keywords & Entities:**
+  - [DEFINE ACTION](../Actions/ACTION.md)
+  - [SET](../Syntax/Functional/SET/SET.md)
+  - [GET TOPIC](../Syntax/Functional/GET%20TOPIC/GET%20TOPIC.md)
+  - [PAYLOAD](../Syntax/Entities/PAYLOAD/PAYLOAD.md)
+
+[Back to Main](../README.md)
 
