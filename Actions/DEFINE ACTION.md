@@ -67,8 +67,7 @@ Triggers whenever a sensor topic receives a new payload:
 ```lot
 DEFINE ACTION SensorUpdate
 ON TOPIC "sensor/temperature" DO
-    SET "currentTemp" WITH PAYLOAD
-    IF {currentTemp} > 30 THEN
+    IF PAYLOAD > 30 THEN
         PUBLISH TOPIC "alerts" WITH "Temperature is too high!"
 ```
 
@@ -80,7 +79,7 @@ DEFINE ACTION LogData
 DO
     KEEP TOPIC "log/data" WITH (GET TOPIC "sensor/latest")
 ```
-Can be called by publishing in the $SYS/Coreflux/Command and publish -runAction <action_name>
+Can be called by publishing in the `$SYS/Coreflux/Command` and publish `-runAction <action_name>`
 
 
 ## 6. Notes & Additional Information
