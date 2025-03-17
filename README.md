@@ -9,8 +9,8 @@ For more details on LOT, visit the [LOT Language of Things page](https://www.cor
 
 
 ## What is Languague of Things
-- [Actions](../Actions/DEFINE ACTION.md)
-- [Models](../Models/DEFINE MODEL.md)
+- [Actions](../Actions/DEFINE%20ACTION.md)
+- [Models](../Models/DEFINE%20MODEL.md)
 - [Routes](../Routes/README.md)
 - [Syntax](../Syntax/README.md)
 
