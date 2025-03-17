@@ -1,5 +1,9 @@
 # KEYWORD: `DEFINE ROUTE`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.5.5  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ## 1. Overview
 
 - **Description:**

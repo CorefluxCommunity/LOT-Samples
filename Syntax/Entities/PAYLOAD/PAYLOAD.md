@@ -1,5 +1,9 @@
 # Entity Keyword: `PAYLOAD`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.5.1  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ## 1. Overview
 - **Description:**  
   Represents the content or data that triggers an action upon the reception of a topic event. It specifically holds the payload of the triggering topic.

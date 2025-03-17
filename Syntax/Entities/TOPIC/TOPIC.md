@@ -1,5 +1,9 @@
 # Entity Keyword: `TOPIC`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.4.4  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ## 1. Overview
 - **Description:**  
   Represents an MQTT topic within the broker, specifying the address or channel through which data is published or received. Topics organize data streams and facilitate communication between clients and the broker.

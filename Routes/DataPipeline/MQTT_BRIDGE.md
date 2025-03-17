@@ -1,5 +1,9 @@
 # Route Type: `MQTT_BRIDGE`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.5.6  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ## 1. Overview
 - **Description:**  
   The `MQTT_BRIDGE` route in Coreflux enables seamless data transfer between two MQTT brokers. This route is ideal for connecting local and remote MQTT brokers securely and efficiently.

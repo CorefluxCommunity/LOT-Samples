@@ -1,5 +1,9 @@
 ## Functional Keyword: `KEEP TOPIC`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.5.5  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ### 1. Overview
 - **Description:**  
   Stores data internally within the broker, making it accessible for internal processes without broadcasting it externally. Topic names can be specified directly or dynamically through variables.

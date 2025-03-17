@@ -1,8 +1,17 @@
 # Functional Keyword: `GET TOPIC`
 
+> **Available in:**
+> - Coreflux MQTT Broker >v1.4.6  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
+
 ## 1. Overview
 - **Description:**  
   The primary method to retrieve data from a specified topic, whether it is a Published or Kept Topic.
+  
+
+
 
 ## 2. Signature
 - **Syntax:**  

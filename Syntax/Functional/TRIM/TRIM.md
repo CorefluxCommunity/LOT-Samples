@@ -1,5 +1,9 @@
 # Functional Keyword: `TRIM`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.5.8  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ## 1. Overview
 - **Description:**  
   A brief summary of what this KEYWORKD does, including its purpose and context.

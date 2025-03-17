@@ -1,5 +1,9 @@
 # Entity Keywords: `SECOND`, `SECONDS`, `MINUTE`, `MINUTES`, `HOUR`, `HOURS`, `DAY`, `DAYS`, `WEEK`, `WEEKS`, `MONTH`, `MONTHS`, `YEAR`, `YEARS`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.4.6  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ## 1. Overview
 - **Description:**  
   These entities define specific time intervals used to trigger actions periodically within the LOT language. They specify how frequently timed actions should be executed.

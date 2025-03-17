@@ -1,5 +1,9 @@
 # KEYWORD: `REPLACE`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.5.6  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ## 1. Overview
 - **Description:**  
   Replaces specific data within payloads or topic names with alternative data. Useful for dynamic adjustments of payloads or topic addresses based on variable information.

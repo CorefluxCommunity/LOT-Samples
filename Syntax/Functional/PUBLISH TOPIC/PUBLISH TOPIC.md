@@ -1,5 +1,9 @@
 ## Functional Keyword: `PUBLISH TOPIC`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.4.4  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ### 1. Overview
 - **Description:**  
   Broadcasts data to a specified topic, making it accessible to all subscribed clients. Topic names can be specified directly or dynamically through variables.
