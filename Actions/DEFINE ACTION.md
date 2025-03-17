@@ -92,7 +92,7 @@ Can be called by publishing in the `$SYS/Coreflux/Command` and publish `-runActi
   - **Callable Actions** (No explicit trigger): Manually called within other actions or processes.
 
 - **Related Keywords & Entities:**
-  - [DEFINE MODEL](../Models/MODEL.md)
+  - [DEFINE MODEL](../Models/DEFINE%20MODEL.md)
   - [SET](../Syntax/Functional/SET/SET.md)
   - [GET TOPIC](../Syntax/Functional/GET%20TOPIC/GET%20TOPIC.md)
   - [PAYLOAD](../Syntax/Entities/PAYLOAD/PAYLOAD.md)
