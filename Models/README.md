@@ -1,4 +1,3 @@
-
 # KEYWORD: `DEFINE MODEL`
 
 ## 1. Overview
@@ -39,7 +38,7 @@ List and describe each keyword that can be used in conjunction with `DEFINE MODE
 
 ## 5. Usage Examples
 
-### 5.1 Static Model Example
+### 5.1 Static Singleton Model Example
 This example shows a model that processes energy data for a lamp:
 ```lot
 DEFINE MODEL LampEnergyCost WITH TOPIC "Coreflux/+/+/+/+/energy"
@@ -47,9 +46,10 @@ DEFINE MODEL LampEnergyCost WITH TOPIC "Coreflux/+/+/+/+/energy"
     ADD "energy_price" WITH 3
     ADD "cost" WITH (total_energy * energy_price)
 ```
+[More details on Static Models](./5.2-StaticModel/README.md)
 
-### 5.2 Dynamic Singleton Model Example
-A dynamic singleton model triggers on a specific topic. Only one instance is managed because the topic is explicit:
+### 5.2 Reception Singleton Model Example
+A Reception singleton model triggers on a specific topic. Only one instance is managed because the topic is explicit:
 ```lot
 DEFINE MODEL MaterialContentData1 WITH TOPIC "Process/Machine/1/Material/MaterialContent_New"
 ```
@@ -66,8 +66,10 @@ It will explode into:
 - `Process/Machine/1/Material/MaterialContent_New/Name` with value `Peppers`
 - `Process/Machine/1/Material/MaterialContent_New/Quantity` with value `21`
 
-### 5.3 Dynamic Model Example
-Dynamic models support multiple instances by using wildcards in the topic. For example:
+[More details on Reception Singleton Models](./5.2-StaticModel/README.md)
+
+### 5.3 Multi-Reception Model Example
+Multi-Reception models support multiple instances by using wildcards in the topic. For example:
 ```lot
 DEFINE MODEL MaterialContentData WITH TOPIC "Process/+/+/Material/MaterialContent_New"
 ```
@@ -84,6 +86,8 @@ The model will create the following topics:
 - `Process/Machine/33/Material/MaterialContent_New/Name` with value `Peppers`
 - `Process/Machine/33/Material/MaterialContent_New/Quantity` with value `21`
 
+[More details on Multi-Reception Models](./5.3-Multi-ReceptionModel/README.md)
+
 ## 6. Notes & Additional Information
 - **Dynamic Models:**  
   Dynamic models expect a JSON payload on the specified topic. They come in two forms:
@@ -92,4 +96,7 @@ The model will create the following topics:
 - **Model Instance Identification:**  
   Each model instance is uniquely identified based on the topic structure and the time of creation, allowing LOT to manage even constant properties as distinct units over time.
 - **Related Keywords:**  
-  See also the documentation for `DEFINE RULE` and `ADD` for additional context on how models integrate with other LOT components.
+  See also the documentation for [DEFINE RULE](./DEFINE_RULE.md) and [ADD](./ADD.md) for additional context on how models integrate with other LOT components.
+
+[Back to Root README](../README.md)
+

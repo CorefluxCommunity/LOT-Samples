@@ -1,1 +1,0 @@
-[{"kind":1,"language":"markdown","value":"The broker explodes a JSON into elements when a Model is defined like this. "},{"kind":2,"language":"lot","value":"DEFINE MODEL MaterialContentData1 WITH TOPIC \"Process/+/+/+/Material/MaterialContent_New\""}]
