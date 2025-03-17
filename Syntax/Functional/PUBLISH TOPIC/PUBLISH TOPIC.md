@@ -53,6 +53,7 @@ DO
 - **Related Methods:**  
     
     - [GET TOPIC](../GET%20TOPIC/GET%20TOPIC.md)  
-    - [KEEP TOPIC](../KEEP%20TOPIC/KEEP%20TOPIC.md)  
+    - [KEEP TOPIC](../KEEP%20TOPIC/KEEP%20TOPIC.md)
+    - [PAYLOAD](../../Entities/PAYLOAD/PAYLOAD.md)  
 
 [Back to Functions](../Functional.md)

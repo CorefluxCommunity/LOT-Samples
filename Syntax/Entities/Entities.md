@@ -1,35 +1,54 @@
-# LOT Functions by Type of Interaction
+# LOT Entities by Data Type
 
-## 📡 **Publishing & Broadcasting**
+## ⚡ **Events & Timing**
 
-| Function Name    | Description                                | Documentation      |
-|------------------|--------------------------------------------|--------------------|
-| `PUBLISH TOPIC`  | Broadcasts data to subscribed clients.     | [View Docs](../Functions/PUBLISH%20TOPIC/PUBLISH%20TOPIC.md)  |
+| Entity Name       | Description                                       | Documentation |
+|-------------------|---------------------------------------------------|---------------|
+| `ON`              | Defines an event: ON TOPIC, ON EVERY, or ON TIME. | [View Docs](link) |
 
-## 📂 **Data Storage & Management**
+## 🗃️ **Payload & Topics**
 
-| Function Name   | Description                                  | Documentation      |
-|-----------------|----------------------------------------------|--------------------|
-| `KEEP TOPIC`    | Stores data internally within the broker.    | [View Docs](../Functions/KEEP%20TOPIC/KEEP%20TOPIC.md) |
-| `SET`           | Defines or modifies variables dynamically.   | [View Docs](link)  |
+| Entity Name | Description                                         | Documentation |
+|-------------|-----------------------------------------------------|---------------|
+| `PAYLOAD`   | Data received from a triggering MQTT topic.         | [View Docs](../Entities/PAYLOAD/PAYLOAD.md) |
+| `TOPIC`     | Defines or references an MQTT broker topic address. | [View Docs](link) |
 
-## 🔍 **Data Retrieval**
+## ⏳ **Time-related Data**
 
-| Function Name   | Description                                 | Documentation      |
-|-----------------|---------------------------------------------|--------------------|
-| `GET TOPIC`     | Retrieves data from a specified topic.      | [View Docs](../Functions/GET%20TOPIC/GET%20TOPIC.md)  |
+| Entity Name  | Description                     | Documentation |
+|--------------|---------------------------------|---------------|
+| `TIMESTAMP`  | Represents timestamp data types. | [View Docs](link) |
+| `SECONDS/SECOND`  | Defines time intervals in seconds.                | [View Docs](../Entities/TIME/TIME.md) |
+| `MINUTE/MINUTES`  | Defines time intervals in minutes.                | [View Docs](../Entities/TIME/TIME.md) |
+| `HOUR/HOURS`      | Defines time intervals in hours.                  | [View Docs](../Entities/TIME/TIME.md) |
+| `DAY/DAYS`        | Defines time intervals in days.                   | [View Docs](../Entities/TIME/TIME.md) |
+| `WEEK/WEEKS`      | Defines time intervals in weeks.                  | [View Docs](../Entities/TIME/TIME.md) |
+| `MONTH/MONTHS`    | Defines time intervals in months.                 | [View Docs](../Entities/TIME/TIME.md) |
+| `YEAR/YEARS`      | Defines time intervals in years.                  | [View Docs](../Entities/TIME/TIME.md) |
 
-## ⚙️ **Conditional Logic & Flow Control**
+## 📄 **Special & Structured Data Formats**
 
-| Function Name   | Description                                  | Documentation      |
-|-----------------|----------------------------------------------|--------------------|
-| `IF`            | Executes actions based on specific conditions.| [View Docs](link)  |
-| `EMPTY`         | Checks whether a topic contains data.        | [View Docs](link)  |
+| Entity Name | Description                                | Documentation |
+|-------------|--------------------------------------------|---------------|
+| `CSV`       | Indicates data structured as CSV.          | [View Docs](link) |
+| `JSON`      | Indicates data structured as JSON.         | [View Docs](link) |
+| `PROTOBUF`  | Indicates data structured as Protocol Buffers (coming soon). | [View Docs](link) |
 
----
+## 📦 **Basic Data Types**
 
-## How to Add a New Function:
-Use the following Markdown template when adding new functions under each interaction type:
+| Entity Name | Description                        | Documentation |
+|-------------|------------------------------------|---------------|
+| `INT`       | Represents integer numeric values. | [View Docs](link) |
+| `DOUBLE`    | Represents decimal numeric values. | [View Docs](link) |
+| `STRING`    | Represents text data.              | [View Docs](link) |
+| `BOOL`      | Represents Boolean true/false values.| [View Docs](link) |
 
-```markdown
-| `NEW FUNCTION` | Brief description of functionality. | [View Docs](link-to-doc) |
+## 🚫 **Null & Empty Checks**
+
+| Entity Name | Description              | Documentation |
+|-------------|--------------------------|---------------|
+| `EMPTY`     | Represents a null or empty value. | [View Docs](link) |
+
+
+
+
