@@ -12,7 +12,7 @@ For more details on LOT, visit the [LOT Language of Things page](https://www.cor
 - [Actions](Actions/DEFINE%20ACTION.md)
 - [Models](Models/DEFINE%20MODEL.md)
 - [Routes](Routes/README.md)
-- [Syntax](Syntax/README.md)
+- [Syntax](Syntax/LOT%20Syntax.md)
 
 ## Installation & Dependencies
 Setting up the LOT Samples project is straightforward. The only dependencies needed are:
