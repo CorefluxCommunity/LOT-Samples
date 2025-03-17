@@ -11,7 +11,7 @@ For more details on LOT, visit the [LOT Language of Things page](https://www.cor
 ## What is Languague of Things
 - [Actions](Actions/DEFINE%20ACTION.md)
 - [Models](Models/DEFINE%20MODEL.md)
-- [Routes](Routes/README.md)
+- [Routes](Routes/DEFINE%20ROUTE.md)
 - [Syntax](Syntax/LOT%20Syntax.md)
 
 ## Installation & Dependencies
