@@ -52,6 +52,7 @@
 | Route Name    | Description                                      | Documentation                                               |
 |---------------|--------------------------------------------------|-------------------------------------------------------------|
 | `MQTT_BRIDGE` | Enables data flow between MQTT brokers.          | [View Docs](../Routes/DataPipeline/MQTT_BRIDGE.md)          |
+| `EMAIL` | Enables data flow to send emails based on HTML templates that change according the MQTT data.          | [View Docs](../Routes/DataPipeline/EMAIL.md)          |
 | `Kafka`       | Enables integration with Kafka pipeline. *(Coming Soon)* | Coming Soon                                     |
 
 

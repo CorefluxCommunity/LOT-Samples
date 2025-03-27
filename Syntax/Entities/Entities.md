@@ -11,13 +11,13 @@
 | Entity Name | Description                                         | Documentation |
 |-------------|-----------------------------------------------------|---------------|
 | `PAYLOAD`   | Data received from a triggering MQTT topic.         | [View Docs](../Entities/PAYLOAD/PAYLOAD.md) |
-| `TOPIC`     | Defines or references an MQTT broker topic address. | [View Docs](link) |
+| `TOPIC`     | Defines or references an MQTT broker topic address. | [View Docs](../Entities/TOPIC/TOPIC.md) |
 
 ## ⏳ **Time-related Data**
 
 | Entity Name  | Description                     | Documentation |
 |--------------|---------------------------------|---------------|
-| `TIMESTAMP`  | Represents timestamp data types. | [View Docs](link) |
+| `TIMESTAMP`  | Represents timestamp data types. | [View Docs](../Entities/TIMESTAMP/TIMESTAMP.md) |
 | `SECONDS/SECOND`  | Defines time intervals in seconds.                | [View Docs](../Entities/TIME/TIME.md) |
 | `MINUTE/MINUTES`  | Defines time intervals in minutes.                | [View Docs](../Entities/TIME/TIME.md) |
 | `HOUR/HOURS`      | Defines time intervals in hours.                  | [View Docs](../Entities/TIME/TIME.md) |

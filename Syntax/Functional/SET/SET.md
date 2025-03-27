@@ -1,5 +1,9 @@
 # Functional Keyword: `SET`
-
+> **Available in:**
+> - Coreflux MQTT Broker >v1.5.6  
+> - Linux ARM64 
+> - Linux x64 
+> - Windows x64 
 ## 1. Overview
 - **Description:**  
   Creates an internal variable within the broker to store data. This internal variable can be dynamically accessed or reused throughout actions by referencing it with `{variable_name}`.
