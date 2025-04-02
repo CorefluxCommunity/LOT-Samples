@@ -47,16 +47,14 @@ The keywords `PUBLISH TOPIC` and `KEEP TOPIC` can directly accept the `REPLACE` 
 
 ```lot
 DEFINE ACTION TestReplaceDirect
-ON TOPIC "Selected/Machine"
+ON TOPIC "Selected/+/Machine"
 DO
-    PUBLISH TOPIC "MessageExternally" WITH REPLACE "xx" WITH PAYLOAD IN "Machine xx was Selected!"
-    KEEP TOPIC "MessageInternally" WITH REPLACE "xx" WITH PAYLOAD IN "Machine xx was Selected!"
+    PUBLISH TOPIC "MessageExternally" WITH REPLACE "xx" WITH TOPIC POSITION 2 IN "Machine xx was Selected!"
 ```
 - **Example Scenario:**
-  - Suppose the payload received is `07`.
+  - Suppose the TOPIC received is `Selected/+/Machine` the payload `07`.
   - Result:
     - `MessageExternally` broadcasts "Machine 07 was Selected!" to subscribers.
-    - `MessageInternally` stores "Machine 07 was Selected!" internally.
 
 ## 6. Notes & Additional Information
 - **Related Methods:**
