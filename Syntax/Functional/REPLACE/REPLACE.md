@@ -52,7 +52,7 @@ DO
     PUBLISH TOPIC "MessageExternally" WITH REPLACE "xx" WITH TOPIC POSITION 2 IN "Machine xx was Selected!"
 ```
 - **Example Scenario:**
-  - Suppose the TOPIC received is `Selected/+/Machine` the payload `07`.
+  - Suppose the TOPIC received is `Selected/07/Machine` the payload can be anything.
   - Result:
     - `MessageExternally` broadcasts "Machine 07 was Selected!" to subscribers.
 
